@@ -1,0 +1,75 @@
+.mainSec{
+    width: 73em ;
+    background: #1c1e27;
+    box-sizing: border-box;
+    height: 19em;
+    margin: 6em 6em 6em 6em;
+    right: 2px;
+    padding: 20px;
+    height: auto;
+}
+.list-block{
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+.list-block label{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+}
+.ind-cases-block{
+    /* background: #1c1e27; */
+    padding: 5px;
+    margin: 5px;
+    background-color: #1c1e27;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 24%;
+}
+.state-cases-block{
+    /* background: #1c1e27; */
+    padding: 5px;
+    margin: 5px;
+    background-color: #1c1e27;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 40%;
+}
+.stateWise{
+    justify-content: center;
+    text-align: center;
+}
+.stateWise option{
+    background-color: #1c1e27;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;;
+}
+.stateWise select{
+    background-color: #1c1e27;
+    color: antiquewhite;
+    padding: 4px;
+    margin: 6px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+}
+.stateWise label{
+    font-weight: 600;
+}
+.state-case-block label{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+}
+.state-case-block {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pie-chart-text{
+    color: antiquewhite;
+}
+.piChart{
+    margin-left: 28px;
+}
