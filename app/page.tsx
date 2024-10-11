@@ -1,11 +1,20 @@
-import jsonData from "../api.json";
-import CovidTrackerContainer from "../Components/CovidTrackerContainer/CovidTrackerContainer";
-
+import Nav from "../Components/Nav";
+import HomePage from "../Components/Home";
+import SecondHome from '../Components/SecondHome'
+import ThirdHome from '../Components/ThirdHome'
+import ForthHome from '../Components/ForthHome'
+import FifthBlock from'../Components/FifthBlock'
+import Footer from '../Components/Footer'
 export default function Home() {
-  const apiData = jsonData;
   return (
     <div>
-      <CovidTrackerContainer apiData={apiData} />
+      <Nav />
+      <HomePage />
+      <SecondHome/>
+      <ThirdHome/>
+      <ForthHome/>
+      <FifthBlock/>
+      <Footer/>
     </div>
   );
 }

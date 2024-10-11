@@ -1,0 +1,213 @@
+.navbar {
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+}
+.navbar-brand {
+  font-weight: bold;
+  margin-left: 2em;
+
+}
+.btn-custom {
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.btn-custom:hover {
+  background-color: #333333;
+}
+.firsthomePage {
+  height: 600px;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+}
+.section-one {
+  text-align: left;
+  padding: 7em;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.input-container input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 370px;
+  font-size: 16px;
+  background-color: #f7f8fa;
+}
+
+.input-container button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to right, #ff5e62, #ff9966);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  margin-left: -143px;
+  height: 47px;
+}
+
+.input-container input::placeholder {
+  color: #a0a3b1;
+}
+.toggle-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.toggle-label.disabled {
+  color: #888;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #3f51b5;
+}
+
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+.secondHomeImage {
+  width: 100%;
+  background: aliceblue;
+}
+.secondHomeLabel {
+  width: 100%;
+  background: aliceblue;
+  text-align: center;
+}
+.gradient-text-secondHome {
+  background: linear-gradient(to right, #683dca, #eb1db0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+}
+.startButton {
+  background-color: darkslateblue;
+  width: 13em;
+  height: 39px;
+  color: white;
+  border-radius: 18px;
+  padding: 2px;
+}
+.thirdHome {
+  height: fit-content;
+  background-color: white;
+  text-align: center;
+}
+.firstCard {
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.listItem {
+  font-weight: 400;
+}
+.card-title-default {
+  background-color: #8189b987;
+  border-radius: 10px;
+  height: 26x;
+  width: 50%;
+  margin-left: 55px;
+  padding: 1px;
+}
+.secondCard {
+  background-color: #030a30;
+  color: white;
+  border-radius: 20px;
+}
+.card-title-master {
+  background-color: #ecc92b9a;
+  border-radius: 10px;
+  height: 26px;
+  width: 50%;
+  margin-left: 55px;
+  padding: 1px;
+}
+.fourthHome {
+  height: 900px;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  text-align: center;
+}
+.fourthImageBlock {
+  position: absolute;
+  margin-top: 9em;
+  padding: 163px;
+  height: 2px;
+}
+.fourthImageMask {
+  margin-top: -29em;
+  padding: 7em;
+}
+.fifthBlock {
+  text-align: center;
+  background-color: aliceblue;
+}
+.footer {
+  background-color: #030a30;
+  height: fit-content;
+  color: white;
+}
+.leftFooter {
+  text-align: left;
+  padding: 5em;
+}
+.footerBtn {
+  background: linear-gradient(to right, #683dca, #eb1db0);
+  padding: 13px;
+  color: white;
+}
+
+@media (max-width: 786px) {
+    .fourthImageBlock {
+        padding: 10px; 
+        margin-top: 16em;
+    }
+}

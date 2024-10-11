@@ -1,5 +1,5 @@
 .pageBackground {
-  background: #17181f;
-  color: #6bd430;
+  background: white;
+  color: black;
   min-height: 100vh; /* Ensures it covers the entire viewport */
 }
